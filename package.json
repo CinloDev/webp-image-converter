@@ -1,0 +1,21 @@
+{
+  "name": "image-to-webp-converter",
+  "version": "1.0.0",
+  "description": "Node.js CLI tool to batch convert PNG and JPG images to WebP format",
+  "main": "scripts/convert-images.js",
+  "scripts": {
+    "convert:images": "node scripts/convert-images.js"
+  },
+  "keywords": [
+    "webp",
+    "image-converter",
+    "image-optimization",
+    "web-performance",
+    "sharp"
+  ],
+  "author": "Cintia Losada (Cinlo)",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}
