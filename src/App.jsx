@@ -17,7 +17,7 @@ function App() {
   }, [lang])
 
   return (
-    <div className="flex flex-col w-full min-h-screen px-4">
+    <div className="flex flex-col w-full min-h-screen sm:px-4">
       <header className="w-full max-w-4xl mx-auto flex justify-between items-center py-6 mb-8 animate-fade-in">
         <div className="flex items-center gap-3">
           <div className="p-1.5 bg-indigo-600/20 rounded-xl border border-indigo-500/30 w-14 h-14 flex items-center justify-center overflow-hidden shadow-lg shadow-indigo-500/10">
