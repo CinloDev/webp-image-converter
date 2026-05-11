@@ -287,4 +287,15 @@ input[type="file"] {
   .md\:text-5xl { font-size: 3.75rem; }
   .md\:text-6xl { font-size: 4.5rem; }
   .md\:block { display: block; }
+  .md\:flex-row { flex-direction: row; }
+  .md\:justify-between { justify-content: space-between; }
+  .md\:mt-0 { margin-top: 0; }
+  .md\:text-left { text-align: left; }
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-row { flex-direction: row; }
+  .sm\:justify-between { justify-content: space-between; }
+  .sm\:mt-0 { margin-top: 0; }
+  .sm\:text-left { text-align: left; }
 }

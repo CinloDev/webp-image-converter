@@ -17,8 +17,8 @@ function App() {
   }, [lang])
 
   return (
-    <div className="flex flex-col items-center w-full min-h-screen px-4">
-      <header className="w-full max-w-4xl flex justify-between items-center py-6 mb-8 animate-fade-in">
+    <div className="flex flex-col w-full min-h-screen px-4">
+      <header className="w-full max-w-4xl mx-auto flex justify-between items-center py-6 mb-8 animate-fade-in">
         <div className="flex items-center gap-3">
           <div className="p-1.5 bg-indigo-600/20 rounded-xl border border-indigo-500/30 w-14 h-14 flex items-center justify-center overflow-hidden shadow-lg shadow-indigo-500/10">
             <img src="/cat.svg" alt="Mascot" className="w-full h-full object-contain" />
@@ -40,7 +40,7 @@ function App() {
         </nav>
       </header>
 
-      <main className="w-full max-w-4xl">
+      <main className="w-full max-w-4xl mx-auto">
         <section className="text-center mb-16">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -83,22 +83,19 @@ function App() {
         </section>
       </main>
 
-      <footer className="w-full max-w-4xl mt-24 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-500 text-sm animate-fade-in mb-12">
-        <div className="flex items-center gap-6">
-          <div className="flex items-center gap-2 group cursor-default">
-            <Globe size={16} className="text-indigo-400 group-hover:scale-110 transition-transform" />
-            <span className="font-medium tracking-tight">webp.cinlodev.com</span>
-          </div>
-          <div className="w-1 h-1 rounded-full bg-slate-800 hidden md:block" />
-          <p className="font-medium">{t.footer}</p>
+      <footer className="w-full max-w-4xl mx-auto mt-16 py-8 border-t border-white/10 flex flex-col sm:flex-row sm:justify-between items-center text-slate-500 text-sm animate-fade-in">
+        <div className="font-medium text-center sm:text-left">
+          <span className="opacity-50">© {new Date().getFullYear()} </span>
+          <span className="text-indigo-400 font-bold">CinloDev</span>
+          <span className="opacity-50">. All rights reserved.</span>
         </div>
-        
-        <div className="flex items-center gap-4">
-          <a href="https://github.com/cinlodev" target="_blank" rel="noopener noreferrer" className="p-2.5 bg-white/5 rounded-xl border border-white/5 hover:border-indigo-500/30 hover:text-indigo-400 transition-all shadow-xl">
-            <Github size={18} />
+
+        <div className="flex items-center gap-6 mt-8 sm:mt-0">
+          <a href="https://cinlodev.com" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-400 transition-all hover:scale-110">
+            <Globe size={20} />
           </a>
-          <a href="https://cinlodev.com" target="_blank" rel="noopener noreferrer" className="p-2.5 bg-white/5 rounded-xl border border-white/5 hover:border-indigo-500/30 hover:text-indigo-400 transition-all shadow-xl">
-            <Globe size={18} />
+          <a href="https://github.com/cinlodev" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-400 transition-all hover:scale-110">
+            <Github size={20} />
           </a>
         </div>
       </footer>
