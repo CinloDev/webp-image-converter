@@ -1,65 +1,77 @@
-# 🖼️ Image to WebP Converter
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Sharp-000000?style=for-the-badge&logo=sharp&logoColor=white" />
-</p>
+# 🖼️ WebP Image Converter - by CinloDev
 
-A small CLI tool built with Node.js to convert **PNG** and **JPG** images into **WebP** using the Sharp image processing library.
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel)](https://tools.cinlodev.com)
+[![React](https://img.shields.io/badge/Made_with-React-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-The script scans folders, converts images in batch, and preserves the original directory structure.
+**La forma más rápida, segura y elegante de optimizar tus imágenes para la web.**
 
----
+Olvídate de subir tus archivos a servidores desconocidos. **WebP Image Converter** es una herramienta de grado ingeniería diseñada para ofrecer resultados profesionales con privacidad total, procesando todo directamente en tu navegador.
 
-## 📦 Installation
-
-Install dependencies:
-
-```bash
-npm install
-```
----
-
-## 📁 Project Structure
-
-```bash
-project
-│
-├── images
-├── images-webp
-├── scripts
-│   └── convert-images.js
-└── package.json
-```
-- `images/` → original PNG/JPG files  
-- `images-webp/` → generated WebP files  
+🚀 **[Pruébalo ahora en tools.cinlodev.com](https://tools.cinlodev.com)**
 
 ---
 
-## 🚀 Usage
+## ✨ ¿Por qué usar esta herramienta?
 
-Run the converter:
-```bash
-npm run convert:images
-```
-Or directly:
-```bash
-node scripts/convert-images.js
-```
+En un mundo donde la velocidad de carga lo es todo, esta herramienta te ofrece:
 
----
-
-## 🔄 What the Script Does
-
-- 🔍 Scans the `images` directory  
-- 📂 Traverses subfolders  
-- 🖼️ Converts `.png`, `.jpg`, `.jpeg` to **WebP**  
-- 💾 Saves results in `images-webp`  
-- 🧭 Preserves the folder structure  
+- 🔒 **Privacidad Total (100% Client-Side)**: Tus imágenes nunca salen de tu computadora. La conversión se realiza localmente usando las APIs de tu navegador.
+- ⚡ **Rendimiento Ultra-Rápido**: Optimización acelerada por hardware para convertir múltiples imágenes en milisegundos.
+- 🎨 **Diseño Engineering-Grade**: Una interfaz minimalista, oscura y fluida que se siente premium en cada interacción.
+- 📱 **PWA Ready**: Instálalo en tu escritorio o móvil y úsalo como una aplicación nativa.
+- 🚫 **Sin Publicidad ni Tracking**: Herramienta limpia, sin distracciones y enfocada al desarrollador.
 
 ---
 
-## 👩‍💻 Author
+## 🛠️ Stack Tecnológico
+
+Construido con las mejores tecnologías modernas para garantizar estabilidad y velocidad:
+
+- **React + Vite**: Para una experiencia de desarrollo y ejecución instantánea.
+- **Framer Motion**: Animaciones fluidas y micro-interacciones que elevan la UX.
+- **Lucide Icons**: Iconografía técnica y consistente.
+- **CSS3 Moderno**: Diseño responsivo y adaptable con un sistema de tokens personalizado.
+
+---
+
+## 🚀 Instalación Local
+
+Si prefieres correrlo en tu propia infraestructura o contribuir al proyecto:
+
+1. **Clonar el repo**:
+   ```bash
+   git clone https://github.com/cinlodev/webp-image-converter.git
+   ```
+2. **Instalar dependencias**:
+   ```bash
+   npm install
+   ```
+3. **Correr en desarrollo**:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🗺️ Roadmap / Próximamente
+
+Este proyecto es parte de la suite de **CinloDev Tools**. Próximas integraciones:
+- [ ] 🎨 Extractor de Paleta de Colores (HEX).
+- [ ] 📏 Redimensionador de imágenes integrado.
+- [ ] 🪄 Removedor de fondos client-side (IA local).
+- [ ] 📐 Conversor de SVG a componentes de React.
+
+---
+
+## 👩‍💻 Sobre la Autora
 
 **Cintia Losada (CinloDev)**  
-🌐 https://www.cinlodev.com
+Full Stack Developer enfocada en crear productos digitales con estética premium y código limpio.
 
+🌐 [cinlodev.com](https://www.cinlodev.com) 
+💼 [LinkedIn](https://linkedin.com/in/cinlodev)
+
+---
+
+> Part of the **CinloDev Suite** - Empowering developers with minimalist tools.
