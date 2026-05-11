@@ -1,9 +1,12 @@
 {
-  "name": "image-to-webp-converter",
+  "name": "webp-converter",
   "version": "1.0.0",
-  "description": "Node.js CLI tool to batch convert PNG and JPG images to WebP format",
+  "description": "Image to WebP Converter",
   "main": "scripts/convert-images.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "convert:images": "node scripts/convert-images.js"
   },
   "keywords": [
@@ -13,9 +16,18 @@
     "web-performance",
     "sharp"
   ],
-  "author": "Cintia Losada (Cinlo)",
+  "author": "CinloDev",
   "license": "MIT",
   "dependencies": {
+    "framer-motion": "^11.0.8",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.358.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "vite": "^5.1.4"
   }
 }

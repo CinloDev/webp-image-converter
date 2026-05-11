@@ -1,0 +1,17 @@
+{
+  "name": "WebP Converter | CinloDev",
+  "short_name": "WebP Conv",
+  "description": "Convert images to WebP instantly and privately.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2225%22 fill=%22%236366f1%22/><path d=%22M30 40h40v25H30z%22 fill=%22none%22 stroke=%22white%22 stroke-width=%226%22 stroke-linejoin=%22round%22/><path d=%22M30 65l10-10 10 10M45 58l10-10 15 17%22 stroke=%22white%22 stroke-width=%226%22 stroke-linejoin=%22round%22 fill=%22none%22/><circle cx=%2242%22 cy=%2248%22 r=%223%22 fill=%22white%22/></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

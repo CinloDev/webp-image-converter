@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2225%22 fill=%22%236366f1%22/><path d=%22M30 40h40v25H30z%22 fill=%22none%22 stroke=%22white%22 stroke-width=%226%22 stroke-linejoin=%22round%22/><path d=%22M30 65l10-10 10 10M45 58l10-10 15 17%22 stroke=%22white%22 stroke-width=%226%22 stroke-linejoin=%22round%22 fill=%22none%22/><circle cx=%2242%22 cy=%2248%22 r=%223%22 fill=%22white%22/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebP Converter | Convert Images Instantly & Privately</title>
+    <meta name="description" content="Fast, private, and professional image to WebP converter. Optimize your images for the web with custom quality presets. 100% client-side, your data never leaves your browser." />
+    <meta name="keywords" content="webp converter, image optimizer, convert png to webp, convert jpg to webp, webp optimization, cinlodev" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://webp.cinlodev.com/" />
+    <meta property="og:title" content="WebP Converter | Convert Images Instantly" />
+    <meta property="og:description" content="Professional image to WebP converter. Fast, free and 100% private." />
+    <meta property="og:image" content="https://webp.cinlodev.com/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="WebP Converter | CinloDev" />
+    <meta property="twitter:description" content="Professional image to WebP converter. 100% client-side." />
+    
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#6366f1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
+  </body>
+</html>
